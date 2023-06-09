@@ -3,5 +3,5 @@ body {
   background-image: url("https://sprig.hackclub.com/pcb.svg");
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
+   background-attachment: fixed;
 }
