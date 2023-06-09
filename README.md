@@ -1,12 +1,10 @@
 # 🐸 Fungi Frog Maze / Sprig Web Template 👾
 
-[Sprig](https://github.com/hackclub/sprig/) is an open source game console, web-based game editor, and hardware development kit.
-
-This is a template to easily publish your Sprig games on the web, it uses Sprig's package on [NPM](https://docs.npmjs.com/about-npm) so you can run Sprig games in your own projects and websites.
+This repository includes the open-source code for my game Fungi Frog Maze programmed using [Sprig](https://github.com/hackclub/sprig/), an open source game console, web-based game editor, and hardware development kit. This also works as a template for you to implement your own games.
 
 ## Template Quickstart 
 
-The index.html file has everything you need to get started, just add your js sprig game in the following segment:
+The index.html file has everything you need to get started, just add your js sprig game in the following segment replacing my game:
 > If you get lost, check how I implemented my game inside the [index.html](https://github.com/jzaleta/sprig-web-template/blob/main/index.html) file!
 
 ```html
@@ -25,5 +23,3 @@ The index.html file has everything you need to get started, just add your js spr
 </script>
 ```
 Remember, to make a Sprig game you'll need to use [Sprig's Web Editor](https://sprig.hackclub.com/~/new).
-
-## Okay, I made my game, now what? 
