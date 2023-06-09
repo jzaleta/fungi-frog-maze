@@ -16,3 +16,7 @@ body {
   background-repeat: no-repeat;
    background-attachment: fixed;
 }
+
+canvas {
+  opacity: 1;
+}
