@@ -1,30 +1,51 @@
 <!DOCTYPE html>
-<html lang='en'>
-	<head>
-		<meta charset='utf-8'>
-		<title>Sprig Web Example</title>
-	</head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sprig Web Template</title>
+    <meta
+      name="description"
+      content="An HTML and JavaScript template to easily publish your Sprig games on the web"
+    />
+    <meta name="author" content="Javier Zaleta Martínez" />
+    <meta property="og:title" content="Sprig Web Template" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://sprig-web-template.vercel.app/" />
+    <meta property="og:image" content="https://github.com/jzaleta.png" />
+    <meta
+      property="og:description"
+      content="An HTML and JavaScript template to easily publish your Sprig games on the web"
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎮</text></svg>"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-	<body>
-		<canvas width='500' height='400' id='canvas' tabindex='0'></canvas>
-		
-		<script type='module'>
-			import { webEngine } from 'https://esm.sh/sprig@1/web'
+  <body>
+    <canvas width="500" height="400" id="canvas" tabindex="0"></canvas>
 
-			const runGame = (api) => {
-				const {
-					setLegend,
-					bitmap,
-					map,
-					setBackground,
-					setMap,
-					onInput,
-					getFirst,
-					afterInput
-				} = api
-				
-				setLegend(
-					[ 'p', bitmap`
+    <script type="module">
+      import { webEngine } from "https://esm.sh/sprig@1/web";
+
+      const runGame = (api) => {
+        const {
+          setLegend,
+          bitmap,
+          map,
+          setBackground,
+          setMap,
+          onInput,
+          getFirst,
+          afterInput,
+        } = api;
+
+        setLegend(
+          [
+            "p",
+            bitmap`
 ................
 ................
 .......000......
@@ -40,8 +61,11 @@
 ......000.......
 ......0.0.......
 .....00.00......
-................` ],
-					[ 'b', bitmap`
+................`,
+          ],
+          [
+            "b",
+            bitmap`
 8888888888888888
 8888888888888888
 8888888888888888
@@ -57,22 +81,23 @@
 8888888888888888
 8888888888888888
 8888888888888888
-8888888888888888` ]
-				)
+8888888888888888`,
+          ]
+        );
 
-				setMap(map`
+        setMap(map`
 p.
-..`)
-				setBackground('b')
+..`);
+        setBackground("b");
 
-				onInput('w', () => getFirst('p').y -= 1)
-				onInput('s', () => getFirst('p').y += 1)
-				onInput('a', () => getFirst('p').x -= 1)
-				onInput('d', () => getFirst('p').x += 1)
-			}
+        onInput("w", () => (getFirst("p").y -= 1));
+        onInput("s", () => (getFirst("p").y += 1));
+        onInput("a", () => (getFirst("p").x -= 1));
+        onInput("d", () => (getFirst("p").x += 1));
+      };
 
-			const game = webEngine(document.getElementById('canvas'))
-			runGame(game.api)
-		</script>
-	</body>
+      const game = webEngine(document.getElementById("canvas"));
+      runGame(game.api);
+    </script>
+  </body>
 </html>
