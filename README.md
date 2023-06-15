@@ -2,6 +2,8 @@
 
 This repository includes the open-source code for my game Fungi Frog Maze programmed using [Sprig](https://github.com/hackclub/sprig/), an open source game console, web-based game editor, and hardware development kit. This also works as a template for you to implement your own games.
 
+- [fungi-frog-maze (sprig gallery)](https://sprig.hackclub.com/gallery/fungi-frog-maze)
+
 ◕ ◡ ◕ っ
 ---------------------------------------------------------------------
 Instructions: 
