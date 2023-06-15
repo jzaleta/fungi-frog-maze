@@ -1,4 +1,4 @@
-# 🐸 Fungi Frog Maze / Sprig Web Template 👾
+# 👾 Sprig Games + Web Template 👾
 
 This repository includes the open-source code for my game Fungi Frog Maze programmed using [Sprig](https://github.com/hackclub/sprig/), an open source game console, web-based game editor, and hardware development kit. This also works as a template for you to implement your own games.
 
