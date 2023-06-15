@@ -4,14 +4,18 @@ This repository includes the open-source code for my game Fungi Frog Maze progra
 
 ◕ ◡ ◕ っ
 ---------------------------------------------------------------------
-* Instructions:                                       
-Help the fungi-frog in reaching the destination!
-Use WASD to move around and j to restart the level. 
-* Help:
-You can push the fungi to move the rocks.
-You can go through the wooden walls.
-You can't go through the water.
-There are levels where there are no annoying rocks, yay!
+Instructions: 
+                                      
+- Help the fungi-frog in reaching the destination!
+- Use WASD to move around and j to restart the level. 
+
+Help:
+- You can push the fungi to move the rocks.
+- You can go through the wooden walls.
+- You can't go through the water.
+- There are levels where there are no annoying rocks, yay!
+
+![](fungi-frog-maze.png)
 ----------------------------------------------------------------------
           \ 
            \ 
