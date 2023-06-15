@@ -1,36 +1,26 @@
-# 👾 Sprig Games + Web Template 👾
+# 🐸 Fungi Frog Maze + Web Template 👾
 
 This repository includes the open-source code for my game Fungi Frog Maze programmed using [Sprig](https://github.com/hackclub/sprig/), an open source game console, web-based game editor, and hardware development kit. This also works as a template for you to implement your own games.
 
 - [fungi-frog-maze (sprig gallery)](https://sprig.hackclub.com/gallery/fungi-frog-maze)
+- [fungi-frog-maze (itch.io)](https://jzaleta.itch.io/fungi-frog-maze)
 
-◕ ◡ ◕ っ
----------------------------------------------------------------------
-Instructions: 
-                                      
-- Help the fungi-frog in reaching the destination!
-- Use WASD to move around and j to restart the level. 
+Your mission is to guide the fungi-frog safely through each level (you can finish the game in 5 minutes or less) :
 
-Help:
+- Click on the game screen to get started, then use WASD to move around and j to restart the level. 
 - You can push the fungi to move the rocks.
 - You can go through the wooden walls.
 - You can't go through the water.
 - There are levels where there are no annoying rocks, yay!
 
-![](fungi-frog-maze.png)
+![](assets/fungi-frog-maze.png)
 ----------------------------------------------------------------------
-          \ 
-           \ 
+           
            (')-=-(')
          __(   "   )__
         / _/'-----'\_ \
      ___\\ \\     // //___
      >____)/_\---/_\(____<     
-
-
-
-
-
 
 
 ## Template Quickstart 
